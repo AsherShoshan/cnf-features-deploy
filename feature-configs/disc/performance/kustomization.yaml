@@ -3,7 +3,7 @@ kind: Kustomization
 
 # TODO handle namespace with var
 bases:
-  - ../../deploy/performance
+  - ../../base/performance
 
 patchesStrategicMerge:
 
